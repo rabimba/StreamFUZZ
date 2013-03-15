@@ -20,3 +20,5 @@ This fuzzer uses 6 basic crafting and 9 advanced crafting technique to test any 
 3. Give execution permission to "StreamFuzz.py" file.(chmod 777 StreamFuzz.py)
 4. In shell type "python StreamFuzz.py".Now the script will show your preferences provided in the configuration file.If the information are correct then press enter to start fuzzing.
 5. The program will always save the last successful request in LOG.TXT file.When the target crashes go to LOG.TXT file to check the Buffer length and the exact request sent.
+
+## Added Support for Metaspoilt Framework
