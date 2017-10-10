@@ -3,14 +3,14 @@
 
 ## Description ##
 
-A RTSP based Stream Fuzzer in Python
+A Stream Fuzzer based on RYSP written in Python.
 
-StreamFuzz is a Real Time Streaming Protocol Server Fuzzer(a python script near about 600 lines)coded by myself.
-This fuzzer uses 6 basic crafting and 9 advanced crafting technique to test any target application.
+StreamFuzz is a Real Time Streaming Protocol Server Fuzzer.
+It uses total 15 crafting technique to test any target application.
 
-## Key Features: ##
+## Features: ##
 
-1. This fuzzer uses 6 basic crafting technique with OPTIONS,DESCRIBE,SETUP,PLAY,GET_PARAMETER,TEARDOWN,PAUSE etc rtsp commands and 9 advanced crafting technique to test any target application.
+1. This fuzzer uses crafting technique with OPTIONS,DESCRIBE,SETUP,PLAY,GET_PARAMETER,TEARDOWN,PAUSE etc rtsp commands .
 2. Ability to fuzz with Metasploit Pattern (pattern_create.rb) can be helpful to find offset.
 
 ## How to use?? ##
